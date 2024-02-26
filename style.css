@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.login-box{
+    background: black;
+    position: relative;
+    display: flex;
+    width: 450px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 0px 0px 100px 100px;
+    box-shadow: 0 0 15px blue;
+}
+
+h2{
+display: flex;
+align-items: center; 
+width: 1px;
+margin-bottom: 700px;
+margin-left: 50px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25PX;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-shadow: 0 0 5px blue;
+}
+
+.session .sesion{
+    margin-bottom: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+button {
+    width: 280px;
+    height: 30px;
+    border-radius: 16px;
+    border-style: none;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    outline: none;
+}
+
+.selecciones{
+    color: white;
+    margin-top:7px;
+    border-style: none;
+}
+
+.link2 {
+    margin-left: 35px;
+    color: #fff;
+}
+
+.link1{
+    color:#fff;
+}
+
+.login-box .icon{
+    color: #fff;
+    filter: drop-shadow(0 0 5px blue);
+    
+}
